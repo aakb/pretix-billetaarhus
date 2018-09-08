@@ -1,0 +1,8 @@
+#id_copy-copy_from_event .radio:not(.template-event) + .template-event,
+#id_copy-copy_from_event .template-event + .radio:not(.template-event) {
+    margin-top: 1em;
+}
+
+#id_copy-copy_from_event .template-event label {
+    font-weight: bold;
+}

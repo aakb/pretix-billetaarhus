@@ -1,0 +1,7 @@
+{% extends "pretixcontrol/events/create_copy.html" %}
+
+{% block form %}
+{{ block.super }}
+
+<script src="{% url 'plugins:pretix_billetaarhus:create_copy_js' %}"></script>
+{% endblock %}

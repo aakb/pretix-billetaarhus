@@ -1,0 +1,3 @@
+recursive-include pretix_billetaarhus/static *
+recursive-include pretix_billetaarhus/templates *
+recursive-include pretix_billetaarhus/locale *
